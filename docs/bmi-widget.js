@@ -45,7 +45,7 @@ var w=Object.defineProperty;var y=(t,e,a)=>e in t?w(t,e,{enumerable:!0,configura
 		width: 150px;
 	}
 	.${i}_calc {
-		border-radius: 30px;
+		border-radius: 24px;
 		padding: 15px 30px;
 		margin: 15px 0;
 		color: #FFFFFF;
