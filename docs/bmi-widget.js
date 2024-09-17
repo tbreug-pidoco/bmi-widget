@@ -8,8 +8,8 @@ var x=Object.defineProperty;var y=(r,e,i)=>e in r?x(r,e,{enumerable:!0,configura
 	.${t} {
 		padding: 40px;
 		color: #FFFFFF;
-		background-color: #004165;
-		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		background-color: #0A3152;
+		font-family: "Fira Sans Extra Condensed", sans-serif;
 		border-radius: 20px;
 	}
 	.${t} h1,h2,h3 {
@@ -18,7 +18,7 @@ var x=Object.defineProperty;var y=(r,e,i)=>e in r?x(r,e,{enumerable:!0,configura
 	.${t} input[type="radio"] {
 		margin-right: 10px;
 		transform: scale(1.5);
-		accent-color: #004165;
+		accent-color: #0A3152;
 	}
 	.${t}_gender {
 		font-weight: 700;
@@ -45,14 +45,14 @@ var x=Object.defineProperty;var y=(r,e,i)=>e in r?x(r,e,{enumerable:!0,configura
 		width: 150px;
 	}
 	.${t}_values > input.error {
-		border: 3px solid red;
+		border: 3px solid #C20114;
 	}
 	.${t}_calc {
 		border-radius: 24px;
 		padding: 15px 30px;
 		margin: 15px 0;
 		color: #FFFFFF;
-		background-color: #007cbf;
+		background-color: #0082C9;
 		cursor: pointer;
 		border: none;
 	}
@@ -90,7 +90,7 @@ var x=Object.defineProperty;var y=(r,e,i)=>e in r?x(r,e,{enumerable:!0,configura
 		font-weight: 700;
 		font-size: 14pt;
 		color: #FFFFFF;
-		background-color: #004165;
+		background-color: #0A3152;
 		padding: 15px 20px;
 		margin: 0 !important;
 		border-radius: 20px;
@@ -103,7 +103,7 @@ var x=Object.defineProperty;var y=(r,e,i)=>e in r?x(r,e,{enumerable:!0,configura
 		font-size: 12pt;
 	}
 	.${t}_result.error .${t}_note {
-		color: red;
+		color: #C20114;
 		margin-top: 0;
 	}
 `,m={de:{calculator:"BMI-Rechner",years:"Jahre",kg:"kg",cm:"cm",age:"Alter (Jahre)",weight:"Gewicht (kg)",size:"Größe (cm)",female:"Weiblich",male:"Männlich",calculate:"Berechnen",bmi:"Ihr BMI",errorSize:"Bitte geben Sie Ihre Größe in Zentimetern in Form einer Zahl zwischen 50 und 250 an!",errorWeight:"Bitte geben Sie Ihr Gewicht in Kilogramm in Form einer Zahl zwischen 20 und 350 an!",young:`Unser BMI-Rechner eignet sich nur für Erwachsene ab 19 Jahren.
