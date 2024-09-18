@@ -19,6 +19,7 @@ var M=Object.defineProperty;var y=(e,n,g)=>n in e?M(e,n,{enumerable:!0,configura
 		margin-right: 10px;
 		transform: scale(1.5);
 		accent-color: #0A3152;
+		vertical-align: top;
 	}
 	.${e}_gender {
 		font-weight: 700;
