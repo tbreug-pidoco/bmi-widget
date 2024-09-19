@@ -42,9 +42,8 @@ var B=Object.defineProperty;var k=(e,n,g)=>n in e?B(e,n,{enumerable:!0,configura
 	}
 	.${e}_dlg-info {
 		position: absolute;
-		top: 50%;
-    	left: 50%;
-		transform: translate(-50%, -50%);
+		top: 0;
+    	left: 0;
     	width: 100%;
 		text-align: center;
 		padding: 20px;
