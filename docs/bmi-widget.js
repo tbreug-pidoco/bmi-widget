@@ -141,7 +141,7 @@ var k=Object.defineProperty;var y=(e,n,g)=>n in e?k(e,n,{enumerable:!0,configura
 		color: #C20114;
 		margin-top: 0;
 	}
-`,m={de:{calculator:"BMI-Rechner",years:"Jahre",kg:"kg",cm:"cm",age:"Alter (Jahre)",weight:"Gewicht (kg)",size:"Größe (cm)",female:"Weiblich",male:"Männlich",calculate:"Berechnen",close:"Schließen",info:"Infos zur Berechnung",infoText:`Der Body-Mass-Index (BMI) ist eine einfache Methode zur Bewertung des Körpergewichts in Bezug auf die Körpergröße. Er dient als grober Indikator, um festzustellen, ob eine Person unter-, normal- oder übergewichtig ist. Der BMI wird berechnet,indem das Körpergewicht in Kilogramm durch das Quadrat der Körpergröße in Metern geteilt wird.
+`,m={de:{calculator:"BMI-Rechner",years:"Jahre",kg:"kg",cm:"cm",age:"Alter (Jahre)",weight:"Gewicht (kg)",size:"Größe (cm)",female:"Weiblich",male:"Männlich",calculate:"Berechnen",close:"Schließen",info:"Infos zur Berechnung",infoText:`Der Body-Mass-Index (BMI) ist eine einfache Methode zur Bewertung des Körpergewichts in Bezug auf die Körpergröße. Er dient als grober Indikator, um festzustellen, ob eine Person unter-, normal- oder übergewichtig ist. Der BMI wird berechnet, indem das Körpergewicht in Kilogramm durch das Quadrat der Körpergröße in Metern geteilt wird.
 
 Obwohl der BMI weit verbreitet ist und nützlich für eine schnelle Einschätzung des Gewichtsstatus in großen Bevölkerungsgruppen sein kann, hat er mehrere Schwächen.
 So unterscheidet der BMI nicht zwischen Fett- und Muskelmasse. Daher kann eine muskulöse Person einen hohen BMI haben, obwohl ihr Körperfettanteil niedrig ist. Umgekehrt kann eine Person mit normalem BMI dennoch einen hohen Körperfettanteil und damit gesundheitliche Risiken haben.
