@@ -54,6 +54,9 @@ var k=Object.defineProperty;var F=(e,n,g)=>n in e?k(e,n,{enumerable:!0,configura
     	border-style: outset;
 		overflow-y: auto;
 	}
+	.${e}_dlg-info p {
+		text-align: left;
+	}
 	.${e} input[type="radio"] {
 		margin-right: 10px;
 		transform: scale(1.5);
