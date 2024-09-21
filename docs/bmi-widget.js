@@ -1,4 +1,4 @@
-var y=Object.defineProperty;var x=(e,n,c)=>n in e?y(e,n,{enumerable:!0,configurable:!0,writable:!0,value:c}):e[n]=c;var h=(e,n,c)=>x(e,typeof n!="symbol"?n+"":n,c);(function(){"use strict";const e="bmi-widget",n=(a,t)=>{const r=document.createElement(a);return t&&(r.className=t),r},c=(a,t,r,s,o,i)=>{const d=n("label");return d.innerHTML=`<input type="radio" id="${t}" name="${r}" value="${s}" ${o?"checked":""}/>${i}`,a.appendChild(d),d.getElementsByTagName("input")[0]};class u{constructor(t,r,s,o){h(this,"units");h(this,"listener");h(this,"element");this.units=r,this.listener=o,this.element=n("input"),this.element.placeholder=s,this.element.onkeydown=i=>{i.keyCode>=65&&i.preventDefault()},this.element.onchange=()=>{const i=this.parse;this.element.value=isNaN(i)?"":i.toString()+" "+this.units},this.element.oninput=()=>this.listener.changed(this),t.appendChild(this.element)}set valid(t){t?this.element.classList.remove("error"):(this.element.classList.add("error"),this.element.setSelectionRange(0,-1),this.element.focus())}get parse(){return parseInt(this.element.value)}get isValid(){const t=this.parse;return!isNaN(t)&&t>0}}const w=`
+var y=Object.defineProperty;var x=(e,n,c)=>n in e?y(e,n,{enumerable:!0,configurable:!0,writable:!0,value:c}):e[n]=c;var h=(e,n,c)=>x(e,typeof n!="symbol"?n+"":n,c);(function(){"use strict";const e="bmi-widget",n=(a,t)=>{const r=document.createElement(a);return t&&(r.className=t),r},c=(a,t,r,s,o,i)=>{const d=n("label");return d.innerHTML=`<input type="radio" id="${t}" name="${r}" value="${s}" ${o?"checked":""}/>${i}`,a.appendChild(d),d.getElementsByTagName("input")[0]};class u{constructor(t,r,s,o){h(this,"units");h(this,"listener");h(this,"element");this.units=r,this.listener=o,this.element=n("input"),this.element.placeholder=s,this.element.onkeydown=i=>{i.keyCode>=65&&i.preventDefault()},this.element.onchange=()=>{const i=this.parse;this.element.value=isNaN(i)?"":i.toString()+" "+this.units},this.element.oninput=()=>this.listener.changed(this),t.appendChild(this.element)}set valid(t){t?this.element.classList.remove("invalid"):(this.element.classList.add("invalid"),this.element.setSelectionRange(0,-1),this.element.focus())}get parse(){return parseInt(this.element.value)}get isValid(){const t=this.parse;return!isNaN(t)&&t>0}}const w=`
 	.${e} * {
 		box-sizing: border-box;
 	}
@@ -83,7 +83,7 @@ var y=Object.defineProperty;var x=(e,n,c)=>n in e?y(e,n,{enumerable:!0,configura
 		padding: 15px;
 		width: 150px;
 	}
-	.${e}_values > input.error {
+	.${e}_values > input.invalid {
 		border: 3px solid #C20114;
 	}
 	.${e}_calc {
