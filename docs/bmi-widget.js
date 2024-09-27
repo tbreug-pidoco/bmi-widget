@@ -41,7 +41,7 @@ Weight alone is not a decisive factor for health status. Your doctor will evalua
 		font-family: "Fira Sans Condensed", sans-serif;
 	}
 	.${e} h1,h2,h3 {
-		margin: 0 0 20px;
+		margin: 0 0 10px;
 	}
 	.${e} form {
 		font-weight: 700;
@@ -82,7 +82,8 @@ Weight alone is not a decisive factor for health status. Your doctor will evalua
 		margin-right: 5px;
 	}
 	.${e}_gender label {
-		margin-right: 20px;
+		display: inline-block;
+		margin: 20px 20px 0 0;
 	}
 	.${e}_values {
 		display: flex;
