@@ -100,6 +100,7 @@ Weight alone is not a decisive factor for health status. Your doctor will evalua
 		font-size: 12pt;
 		padding: 10px;
 		width: 130px;
+		margin-top: 5px;
 	}
 	.${e}_values input.invalid {
 		border: 3px solid #C20114;
