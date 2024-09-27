@@ -83,7 +83,7 @@ Weight alone is not a decisive factor for health status. Your doctor will evalua
 	}
 	.${e}_gender label {
 		display: inline-block;
-		margin: 20px 20px 0 0;
+		margin: 10px 20px 0 0;
 	}
 	.${e}_values {
 		display: flex;
